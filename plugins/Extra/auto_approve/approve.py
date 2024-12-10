@@ -58,9 +58,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                         InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                         InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                     ],[
-                        InlineKeyboardButton('🔻 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻', callback_data='subscription')
-                    ],[
-                        InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                        InlineKeyboardButton('🔻 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻', callback_data='subscription')           
                     ]]
                 else:
                     buttons = [[
@@ -71,8 +69,6 @@ async def auto_approve(client, message: ChatJoinRequest):
                     ],[
                         InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                         InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
-                    ],[
-                        InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                     ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
                 m=await client.send_sticker(chat_id = message.from_user.id, sticker = "CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
@@ -151,10 +147,11 @@ async def auto_approve(client, message: ChatJoinRequest):
                         )
                     if STREAM_MODE == True:
                         button = [[
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                        ],[
-                            InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
+                            InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK),
+                          InlineKeyboardButton('• Cʜᴀɴɴᴇʟ •', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("ᴍᴡ ʙᴏᴛꜱ", url="t.me/MW_BOTS"),
+                          InlineKeyboardButton('ᴍᴡ ꜱᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}') 
                         ],[
                             InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                             InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -163,10 +160,11 @@ async def auto_approve(client, message: ChatJoinRequest):
                         ]]
                     else:
                         button = [[
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                        ],[
-                            InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
+                            InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK),
+                          InlineKeyboardButton('• Cʜᴀɴɴᴇʟ •', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("ᴍᴡ ʙᴏᴛꜱ", url="t.me/MW_BOTS"),
+                          InlineKeyboardButton('ᴍᴡ ꜱᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}') 
                         ]]
                     msg = await client.send_cached_media(
                         chat_id=message.from_user.id,
@@ -259,10 +257,11 @@ async def auto_approve(client, message: ChatJoinRequest):
                         )
                     if STREAM_MODE == True:
                         button = [[
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                        ],[
-                            InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
+                            InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK),
+                          InlineKeyboardButton('• Cʜᴀɴɴᴇʟ •', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("ᴍᴡ ʙᴏᴛꜱ", url="t.me/MW_BOTS"),
+                          InlineKeyboardButton('ᴍᴡ ꜱᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}') 
                         ],[
                             InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                             InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -271,10 +270,11 @@ async def auto_approve(client, message: ChatJoinRequest):
                         ]]
                     else:
                         button = [[
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                        ],[
-                            InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
+                            InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK),
+                          InlineKeyboardButton('• Cʜᴀɴɴᴇʟ •', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("ᴍᴡ ʙᴏᴛꜱ", url="t.me/MW_BOTS"),
+                          InlineKeyboardButton('ᴍᴡ ꜱᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}') 
                         ]]
                     try:
                         p = await msg.copy(message.from_user.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False, reply_markup=InlineKeyboardMarkup(button))
@@ -377,7 +377,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 file_id = file["file_id"]
                 files_ = await get_file_details(file_id)
                 files1 = files_
-                title = ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1["file_name"].split()))
+                title = '@TEAMILLUMINIX '+' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1["file_name"].split()))
                 size=get_size(files1["file_size"])
                 f_caption=files1["caption"]
                 if CUSTOM_FILE_CAPTION:
@@ -404,19 +404,21 @@ async def auto_approve(client, message: ChatJoinRequest):
                         return
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                        InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK),
+                          InlineKeyboardButton('• Cʜᴀɴɴᴇʟ •', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("ᴍᴡ ʙᴏᴛꜱ", url="t.me/MW_BOTS"),
+                          InlineKeyboardButton('ᴍᴡ ꜱᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}') 
                     ],[
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                     ]]
                 else:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                        InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK),
+                          InlineKeyboardButton('• Cʜᴀɴɴᴇʟ •', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("ᴍᴡ ʙᴏᴛꜱ", url="t.me/MW_BOTS"),
+                          InlineKeyboardButton('ᴍᴡ ꜱᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}') 
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -474,19 +476,21 @@ async def auto_approve(client, message: ChatJoinRequest):
                         return
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                        InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK),
+                          InlineKeyboardButton('• Cʜᴀɴɴᴇʟ •', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("ᴍᴡ ʙᴏᴛꜱ", url="t.me/MW_BOTS"),
+                          InlineKeyboardButton('ᴍᴡ ꜱᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}') 
                     ],[
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                     ]]
                 else:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                        InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK),
+                          InlineKeyboardButton('• Cʜᴀɴɴᴇʟ •', url=CHNL_LNK)
+                       ],[
+                          InlineKeyboardButton("ᴍᴡ ʙᴏᴛꜱ", url="t.me/MW_BOTS"),
+                          InlineKeyboardButton('ᴍᴡ ꜱᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}') 
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -496,7 +500,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 )
                 filetype = msg.media
                 file = getattr(msg, filetype.value)
-                title = '@VJ_Bots  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+                title = '@TEAMILLUMINIX  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
                 size=get_size(file.file_size)
                 f_caption = f"<code>{title}</code>"
                 if CUSTOM_FILE_CAPTION:
@@ -520,7 +524,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 pass
             return await client.send_message(message.from_user.id, '**No such file exist.**')
         files = files_
-        title = '@VJ_Bots  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files["file_name"].split()))
+        title = '@TEAMILLUMINIX  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files["file_name"].split()))
         size=get_size(files["file_size"])
         f_caption=files["caption"]
         if CUSTOM_FILE_CAPTION:
@@ -547,19 +551,21 @@ async def auto_approve(client, message: ChatJoinRequest):
                 return
         if STREAM_MODE == True:
             button = [[
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK),
+                InlineKeyboardButton('• Cʜᴀɴɴᴇʟ •', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                InlineKeyboardButton("ᴍᴡ ʙᴏᴛꜱ", url="t.me/MW_BOTS"),
+                InlineKeyboardButton('ᴍᴡ ꜱᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}') 
             ],[
                 InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
             ]]
         else:
             button = [[
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-            ],[
-                InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                InlineKeyboardButton('• Gʀᴏᴜᴘ •', url=GRP_LNK),
+                InlineKeyboardButton('• Cʜᴀɴɴᴇʟ •', url=CHNL_LNK)
+             ],[
+                InlineKeyboardButton("ᴍᴡ ʙᴏᴛꜱ", url="t.me/MW_BOTS"),
+                InlineKeyboardButton('ᴍᴡ ꜱᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}') 
             ]]
         msg = await client.send_cached_media(
             chat_id=message.from_user.id,

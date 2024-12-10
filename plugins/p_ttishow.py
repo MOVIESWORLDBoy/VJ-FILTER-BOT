@@ -44,7 +44,7 @@ async def save_group(bot, message):
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
-            InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url=OWNER_LNK)
+            InlineKeyboardButton("ᴍᴡ ʙᴏᴛᴢ", url=f'https://t.me/MW_BOTS')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -64,7 +64,7 @@ async def save_group(bot, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url=OWNER_LNK)
+                    InlineKeyboardButton("ᴍᴡ ʙᴏᴛᴢ", url=f'https://t.me/MW_BOTS')
                 ]]
                 temp.MELCOW['welcome'] = await message.reply_text(
                     text=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
@@ -87,7 +87,7 @@ async def leave_a_chat(bot, message):
     try:
         buttons = [[
             InlineKeyboardButton('Support Group',url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url=OWNER_LNK)
+            InlineKeyboardButton("ᴍᴡ ʙᴏᴛᴢ", url=f'https://t.me/MW_BOTS')
         ],[
             InlineKeyboardButton('Use Me Here', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]

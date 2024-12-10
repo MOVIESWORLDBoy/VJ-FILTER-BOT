@@ -66,10 +66,6 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /del - <code>ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴛᴇʀ ɪɴ ᴀ ᴄʜᴀᴛ</code>
 • /delall - <code>ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ᴄʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</code>"""
 
-    # Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
     BUTTON_TXT = """ʜᴇʟᴘ: <b>ʙᴜᴛᴛᴏɴꜱ</b>
 - ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴꜱ.
 <b>ɴᴏᴛᴇ:</b>
@@ -77,7 +73,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/vjupdates2/3)</code>
+<code>[Button Text](buttonurl:https://t.me/MW_BOTS)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -102,10 +98,6 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /connect  - <code>ᴄᴏɴɴᴇᴄᴛ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ ᴛᴏ ʏᴏᴜʀ ᴘᴍ</code>
 • /disconnect  - <code>ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ</code>
 • /connections - <code>ʟɪꜱᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ</code>"""
-
-    # Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
 
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
@@ -246,11 +238,37 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """
+<b>ɴᴀᴍᴇ : </b> <code>{file_name}</code>
+<b>ꜱɪᴢᴇ : </b> <code>{file_size}</code>
+<b>
+╭────── • ◆ • ──────╮
+  🔅 ʙᴏᴛ ᴍᴀᴅᴇ ʙy:  <a href="https://t.me/MW_BOTS">𝙼𝚆 𝙱𝙾𝚃𝚂</a>
+╰────── • ◆ • ──────╯
 
-<b> Size ⚙️: {file_size}</b>""" 
+========= • ✠ • =========
+▫️ ᴄʜᴀɴɴᴇʟ : @TEAMILLUMINIX
+▫️ ɢʀᴏᴜᴘ : @illuminixchats
+▫️ ɢʀᴏᴜᴘ : @TGX_Moviez
+========= • ✠ • =========</b>"""
 
     IMDB_TEMPLATE_TXT = """
+<b>🧿 Tɪᴛʟᴇ</b> : <b><a href={url}>{title}</a></b>
+<b>⭐ Rᴀᴛɪɴɢ</b> : <b><a href={url}/ratings>{rating}/10</a></b>
+<b>🎭 Gᴇɴʀᴇ</b></i> : <i><b>{genres}</b>
+
+<b>📆 Rᴇʟᴇᴀsᴇ</b> : <b>{release_date}</b>
+<b>⏰ Dᴜʀᴀᴛɪᴏɴ </b> : <b>{runtime} Minutes</b>
+<b>🎙️ Lᴀɴɢᴜᴀɢᴇ</b> : <b>#{languages}</b>
+
+<i><b>🔖 Sʜᴏʀᴛ</b></i> : 
+<i><b>{plot}</b></i>
+
+<b>👩🏻‍💻 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ</b> : <b>{message.from_user.mention}</b>
+
+<b>★ Pᴏᴡᴇʀᴇᴅ Bʏ</b> : <b>{message.chat.title}</b>"""
+
+    IMDB_TEMPLATE_TXT1 = """
 <b>Query: {qurey}
 
 IMDb Data:
@@ -746,11 +764,5 @@ Example:- /set_caption 📕 File Name: {filename}
     STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
 
 /stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
-
-
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 
     

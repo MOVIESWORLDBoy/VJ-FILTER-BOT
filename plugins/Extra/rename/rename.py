@@ -7,7 +7,7 @@ from info import RENAME_MODE
 import humanize
 import random
 
-@Client.on_message(filters.private & filters.command("rename"))
+@Client.on_message(filters.private & filters.command("mwrename"))
 async def rename_start(client, message):
     if RENAME_MODE == False:
         return 
